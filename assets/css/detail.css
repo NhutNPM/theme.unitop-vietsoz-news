@@ -1,0 +1,358 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+a, img {
+    display: block;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ================= HEADER ================= */
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    height: 60px;
+    left: 14%;
+    top: -15px;
+}
+
+#main-menu {
+    display: flex;
+    height: 100%;
+}
+
+#main-menu a {
+    padding: 20px 20px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+#main-menu li:hover a {
+    background-color: #008643;
+    color: #fff;
+}
+
+#form-search {
+    width: 180px;
+    position: relative;
+}
+
+#form-search input {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 13px;
+    color: #bfbfbf;
+    padding: 8px 32px 8px 13px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+#form-search button {
+    position: absolute;
+    right: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 6px 12px;
+    color: #a3a3a3;
+}
+
+/* ================= BREADCRUM ================= */
+
+#breadcrum {
+    background-color: #f3f3f3;
+}
+
+#breadcrum .breadcrum {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 8px 0;
+    color: #000;
+}
+
+#breadcrum a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#breadcrum a:first-child {
+    margin-left: 0;
+    color: #000;
+}
+
+#breadcrum a, #breadcrum i {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+#breadcrum a:not(#breadcrum a:first-child) {
+    font-weight: 400;
+    color: #565656;
+}
+
+/* ================= WP-CONTENT ================= */
+
+#wp-content {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#content {
+    flex-basis: 832px;
+    padding-right: 38px;
+    border-right: 1px solid #f5f5f5;
+}
+
+#sidebar {
+    flex-basis: 338px;
+    padding-left: 31px;
+    margin-top: 50px;
+}
+
+/* ========== CONTENT ========== */
+
+/* ===== WP-ARTICLE =====  */
+
+#wp-article h2.post-title {
+    margin-bottom: 20px;
+}
+
+#wp-article .post-detail {
+    margin-top: 45px;
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.8;
+}
+
+#wp-article .post-detail p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#wp-article .post-author {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* ===== RELATED-POST =====  */
+
+.related-post-slider {
+    margin-top: 40px;
+}
+
+.related-post-slider .related-post-title {
+    border-bottom: 1px solid #01a050;
+}
+
+.related-post-slider .related-post-title h3 {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1f1f1f;
+    text-transform: uppercase;
+}
+
+.related-post-slider .post-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1f1f1f;
+    padding-top: 18px;
+}
+
+.related-post-slider .post-title:hover{
+    text-decoration: underline;
+}
+
+/* ========== SIDEBAR ========== */
+
+ul.list-post {
+    flex-basis: 307px;
+    padding-left: 15px;
+}
+
+ul.list-post li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+ul.list-post li:last-child {
+    margin-bottom: 0;
+}
+
+ul.list-post .post-thumb {
+    flex-basis: 130px;
+    padding-right: 10px;
+}
+
+img {
+    flex-basis: 120px;
+}
+
+ul.list-post .post-title {
+    flex-basis: 171px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+ul.list-post li:hover .post-title {
+    text-decoration: underline;
+}
+
+.top-most-read.box {
+    margin-top: 30px;
+}
+
+.top-most-read .box-head h3 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #000;
+    padding: 12px 0;
+    background: none;
+}
+
+.top-most-read .box-body {
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.top-most-read .box-body .post-title {
+    flex-basis: 177px;
+    padding-left: 10px;
+}
+
+.ads-bottom {
+    margin-top: 50px;
+}
+
+/* ================= FOOTER ================= */
+
+#footer {
+    padding: 45px 0;
+    background-color: #01a050;
+    color: #fff;
+}
+
+#footer .container {
+    display: flex;
+}
+
+#footer .box-head h3 {
+    padding: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+#footer .box-body {
+    padding-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.box.about-us {
+    flex-basis: 293px;
+    padding-right: 15px;
+}
+
+.box.category-footer {
+    flex-basis: 195px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.box.featured-news {
+    flex-basis: 390px;
+    padding-right: 15px;
+    padding-left: 50px;
+}
+
+.box.fanpage {
+    flex-basis: 292px;
+    padding-left: 15px;
+}
+
+.support {
+    margin-top: 10px;
+}
+
+.support p {
+    line-height: 2.4;
+}
+
+#footer .box-body i {
+    margin-right: 15px;
+}
+
+#footer a {
+    color: #fff;
+}
+
+.list-footer li {
+    line-height: 2;
+}
+
+#footer li:hover a {
+    color: burlywood;
+}
+
+/* ================= COPYRIGHT ================= */
+
+#copyright .container p {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#copyright p {
+    font-size: 14px;
+    color: #454545;
+}

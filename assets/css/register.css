@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+    /* background-color: #029ef3; */
+    /* background: url(public/images/user-manager/wallpapersden.com_line-dark-white.jpg); */
+    background: url(../images/user-manager/login.jpg) no-repeat;
+    background-size: cover;
+}
+
+#form-register {
+    max-width: 525px;
+    margin: 0 auto;
+    border: 2px solid #309654;
+    margin-top: 30px;
+    padding: 15px 10px;
+}
+
+fieldset {
+    padding: 5px 10px;
+    border: 1px solid #309654;
+}
+
+#form-register :nth-child(3) {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+tr td:first-child {
+    width: 22%;
+}
+
+tr td:last-child {
+    width: 0;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    background: #effbde;
+    outline: none;
+}
+
+input[type=submit], input[type=reset]{
+    padding: 9px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #107958;
+    outline: none;
+    color: white;
+}
+
+.error {
+    color: #ffff34;
+    font-size: 12px;
+}
+
+#button-submit {
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,135 @@
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <title>Đăng ký</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <form action="#" method="post" id="form-register">
+            <h1>Đăng ký</h1>
+            <fieldset>
+                <legend>Thông tin cá nhân</legend>
+                <table>
+                    <tr>
+                        <td><label for="fullname">Họ và Tên</label></td>
+                        <td>
+                            <input type="text" name="fullname" id="fullname" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end fullname -->
+                    <tr>
+                        <td><label for="phone">Số điện thoại</label></td>
+                        <td>
+                            <input type="tel" name="phone" id="phone" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end phone number -->
+                    <tr>
+                        <td><label for="male">Giới tính</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Nam</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Nữ</label>
+                            <input type="radio" name="gender" id="other" value="other">
+                            <label for="other">Khác</label>
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end gender -->
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>
+                            <input type="email" name="email" id="email" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end email -->
+                    <tr>
+                        <td><label for="province">Tỉnh/thành</label></td>
+                        <td><select name="province" id="province">
+                                <option value="">------ Chọn ------</option>
+                                <option value="HoChiMinh">Hồ Chí Minh</option>
+                                <option value="CanTho">Cần Thơ</option>
+                                <option value="DaNang">Đà Nẵng</option>
+                                <option value="HaNoi">Hà Nội</option>
+                                <option value="ThuaThienHue">Thừa Thiên Huế</option>
+                            </select>
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end province -->
+                    <tr>
+                        <td><label for="">Danh mục quan tâm</label></td>
+                        <td>
+                            <input type="checkbox" name="cat_interest[]" id="cat_sports" value="cat_sports">
+                            <label for="cat_sports">Thể thao</label>
+                            <input type="checkbox" name="cat_interest[]" id="cat_fashion" value="cat_fashion">
+                            <label for="cat_fashion">Thời trang</label>
+                            <input type="checkbox" name="cat_interest[]" id="cat_society" value="cat_society">
+                            <label for="cat_society">Xã hội</label><br><br>
+                            <input type="checkbox" name="cat_interest[]" id="cat_film" value="cat_film">
+                            <label for="cat_film">Điện ảnh</label>
+                            <input type="checkbox" name="cat_interest[]" id="cat_travel" value="cat_travel">
+                            <label for="cat_travel">Du lịch</label>
+                            <input type="checkbox" name="cat_interest[]" id="cat_other" value="cat_other">
+                            <label for="cat_other">Khác</label>
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end interest cat -->
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Thông tin đăng nhập</legend>
+                <table>
+                    <tr>
+                        <td><label for="username">Tên đăng nhập</label></td>
+                        <td>
+                            <input type="text" name="username" id="username" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end username -->
+                    <tr>
+                        <td><label for="password">Mật khẩu</label></td>
+                        <td>
+                            <input type="password" name="password" id="password" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end password -->
+                    <tr>
+                        <td><label for="password-enter">Nhập lại mật khẩu</label></td>
+                        <td>
+                            <input type="password" name="password-enter" id="password-enter" value="">
+                            <p class="error"></p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <!-- end enter password -->
+                </table>
+
+            </fieldset>
+            <div id="button-submit">
+                <input type="submit" name="btn_reg" id="register" value="Đăng ký">
+                <input type="reset" name="btn_reset" id="reset" value="Hủy">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
